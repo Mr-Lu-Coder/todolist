@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN" profile="http://gmpg.org/xfn/11">
+{% block meta %}
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+
+    <link rel="stylesheet" href="/static/default/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/static/default/bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/static/default/css/style.css" />
+    <script type="text/javascript" src="/static/default/js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="/static/default/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/static/default/js/bin.js"></script>
+    <link rel="shortcut icon" href="/static/default/favicon.ico">
+    <!--[if IE]>
+        <script src="/static/default/html5.js"></script>
+    <![endif]-->
+    <meta name="keywords" content="{{ keywords }}" />
+    <meta name="description" content="{{ desc }}" />
+{% endblock %}
+<title>To-Do Lists  - {% block title %}{% endblock %}</title>
+</head>
+<body role="document">
+<!-- page head -->
+{% block head %}
+<!-- Fixed navbar -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">To-Do Lists</span><!--（仅供）屏幕阅读器，这个 class 主要用于增强 accessbility（可访问性）-->
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">To-Do Lists</a>
+    </div>
+
+        {% if request.session.islogin %}
+            <form class="navbar-form navbar-right">
+            {% if request.session.role%}
+            <span style="color:#fff">管理员大人,</span>
+            {% endif %}
+            <span style="color:#fff">您好：{{ request.session.user_info.name }}</span>
+            <a class="btn btn-success" href="/account/logout">退出</a>
+            </form>
+        {% else %}
+            <form class="navbar-form navbar-right" action="/account/login" method="post">
+                {% csrf_token %}
+                <div class="form-group">
+                  <input type="text" name="name" placeholder="username" class="form-control">
+                </div>
+                <div class="form-group">
+                  <input type="password" name="password" placeholder="Password" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-success" >登录</button>
+                <a class="btn btn-success" href="/account/register">注册</a>
+            </form>
+            <form class="navbar-form navbar-right" action="/online/update" method="post">
+            	{{uf.as_p}}
+            </form>
+        {% endif %}
+
+  </div>
+</nav>
+<div class="container">
+      <ul class="ce">
+        <li class="xz"><a href="/">首页</a></li>
+        <li>
+          <a href="#"  class="more" data-toggle="dropdown" role="button" aria-expanded="true" >个人<span class="caret"></span></a>
+          <ul class="er">
+             <li><a href="/compute/confirm">未批准</a></li>
+             <li><a href="/compute/history">历史记录</a></li>
+            {% if request.session.role%}
+             <li><a href="/compute/user">添加用户权限</a></li>
+            {% endif %}
+          </ul>
+        </li>
+          <li>
+          <a href="#" class="more">群组<span class="caret"></span></a>
+          <ul class="er">
+            <li><a href="/compute/addcompute">添加机器</a></li>
+             {% if request.session.role %}
+              <li><a href="/compute/delcompute">机器修改和删除</a></li>
+             {% else %}
+               <li><a href="/compute/managelink">管理机器权限</a></li>
+             {% endif %}        
+          </ul>
+        </li>
+          <li>
+          <a href="#" class="more" data-toggle="dropdown" role="button" aria-expanded="false">分享<span class="caret"></span></a>
+          <ul class="er">
+ 			 <li><a href="../energy/info">统计</a></li>
+ 			  <li><a href="../energy/list">统计详细信息</a></li>
+ 			  <li><a href="../energy/performance">统计性能信息</a></li>
+          </ul>
+          </li>
+          {% if request.session.role %}
+          <li>
+          <a href="#" class="more" data-toggle="dropdown" role="button" aria-expanded="false">管理功能<span class="caret"></span></a>
+          <ul class="er">
+              <li><a href="/energy/start">开启采集吧</a></li>
+              <li><a href="/energy/stop">停止采集吧</a></li>
+              <li><a href="/energy/monitor">开启监听吧</a></li>
+              <li><a href="/energy/mstop">停止监听吧</a></li>
+           </ul>
+          </li>
+       {% endif %}
+         <li>
+         <a href="#" class="more" data-toggle="dropdown" role="button" aria-expanded="false">其他<span class="caret"></span></a>
+          <ul class="er">
+ 			<li><a href="#">自动升级</a></li>
+ 			<li><a href="#">工具</a></li>
+          </ul>
+        </li>
+      </ul>
+
+</div>
+{% endblock %}
+
+{% block message%}
+{% endblock %}
+{% block welcome %}
+
+{% endblock %}
+
+{% block body%}
+
+{% endblock %}
+{% block error %}
+{% endblock %}
+<!-- page foot -->
+{% block foot %}
+<footer id="footer" >
+    <hr>
+    <p align="middle">2016;  <a href="{{ web_url }}" >{{ web_name }}</a>
+	<br/>
+	Email:lushangqi@foxmail.com
+    </p>
+</footer>
+{% endblock %}
+
+</body>
+<script type="text/javascript" src="../static/default/js/main.js"></script>
+</html>

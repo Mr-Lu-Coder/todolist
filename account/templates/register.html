@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block title %}注册{% endblock %}
+
+{% block body %}
+	<div id="wrap">
+            <form method="post" action="/account/register" class="form" >
+                {% csrf_token %}
+                <div class="form-group">
+                 <input  name="name" placeholder="User Name" class="form-control" id="name">    
+                </div>
+                <div class="form-group">
+                  <input type="email" name="email" placeholder="Email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                  <input type="password" name="password" placeholder="Password" class="form-control" id="passwd">
+                </div>
+                <div class="form-group">
+                  <input type="password" name="repassword" placeholder="Password Again" class="form-control" id="repasswd">
+                </div>
+                <h1 id="error"></h1>
+                <button "type="submit" class="btn btn-success" id="btn" onClick = "return namecheck()">确定</button>
+            </form>
+	</div>  <!-- wrap end -->
+	<script type="text/javascript">
+		function namecheck()
+		{
+			if($('#name').val().length<2)
+			{
+				$('#error').html("用户名长度必须大于2");
+				return false;
+			}
+			if($('#email').val().length==0)
+			{
+				$('#error').html("邮箱不能为空");
+				return false;
+			}
+			if($('#passwd').val().length<6||$('#repasswd').val().length<6)
+			{
+				$('#error').html("密码长度必须大于6");
+				return false;
+			}
+			if($('#passwd').val()!=$('#repasswd').val())
+			{
+				$('#error').html("两次密码不一致");
+				return false;
+			}
+			return true;	
+		}
+      </script>
+{% endblock %}

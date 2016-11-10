@@ -1,0 +1,270 @@
+2016-11-04 09:59:58,726-list-[views.py:27]-INFO-当前没有登录
+2016-11-04 10:01:31,531-list-[views.py:26]-INFO-当前没有登录
+2016-11-04 10:09:22,332-list-[views.py:26]-INFO-当前没有登录
+2016-11-04 10:09:24,529-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-04 10:09:24,533-account-[views.py:34]-INFO-普通用户 lushangqi登录成功
+2016-11-04 10:09:24,792-list-[views.py:26]-INFO-当前没有登录
+2016-11-04 10:13:53,791-account-[views.py:20]-INFO-trying to login
+2016-11-04 10:14:59,501-account-[views.py:22]-INFO-请求方式错误
+2016-11-04 10:17:10,554-list-[views.py:26]-INFO-当前没有登录
+2016-11-04 10:17:15,703-account-[views.py:22]-INFO-请求方式错误
+2016-11-04 10:17:19,809-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-04 10:17:19,817-account-[views.py:36]-INFO-普通用户 lushangqi登录成功
+2016-11-04 10:17:19,817-account-[views.py:39]-INFO-
+2016-11-04 10:33:58,289-list-[views.py:26]-INFO-当前没有登录
+2016-11-04 10:34:00,015-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-04 10:34:00,021-account-[views.py:36]-INFO-普通用户 lushangqi登录成功
+2016-11-04 10:34:00,022-account-[views.py:39]-INFO-redirect to home
+2016-11-04 10:34:00,259-list-[views.py:26]-INFO-当前没有登录
+2016-11-04 11:19:10,264-list-[views.py:26]-INFO-当前没有登录
+2016-11-04 11:19:12,119-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-04 11:19:12,128-account-[views.py:36]-INFO-普通用户 lushangqi登录成功
+2016-11-04 11:19:12,129-account-[views.py:39]-INFO-redirect to home
+2016-11-04 11:24:04,352-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-04 11:24:04,356-account-[views.py:35]-INFO-普通用户 lushangqi登录成功
+2016-11-04 11:24:04,356-account-[views.py:38]-INFO-redirect to home
+2016-11-04 11:24:12,244-list-[views.py:26]-INFO-当前没有登录
+2016-11-04 11:24:13,884-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-04 11:24:13,890-account-[views.py:35]-INFO-普通用户 lushangqi登录成功
+2016-11-04 11:24:13,891-account-[views.py:38]-INFO-redirect to home
+2016-11-04 11:24:24,977-list-[views.py:26]-INFO-当前没有登录
+2016-11-04 11:25:34,532-list-[views.py:26]-INFO-当前没有登录
+2016-11-04 11:25:38,266-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-04 11:25:38,278-account-[views.py:35]-INFO-普通用户 lushangqi登录成功
+2016-11-04 11:25:38,278-account-[views.py:38]-INFO-redirect to home
+2016-11-04 11:25:38,530-list-[views.py:26]-INFO-当前没有登录
+2016-11-04 11:25:48,595-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-04 11:25:48,602-account-[views.py:35]-INFO-普通用户 lushangqi登录成功
+2016-11-04 11:25:48,602-account-[views.py:38]-INFO-redirect to home
+2016-11-04 11:25:48,875-list-[views.py:26]-INFO-当前没有登录
+2016-11-04 11:26:04,862-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-04 11:26:04,864-account-[views.py:35]-INFO-普通用户 lushangqi登录成功
+2016-11-04 11:26:04,864-account-[views.py:38]-INFO-redirect to home
+2016-11-04 11:26:05,100-list-[views.py:26]-INFO-当前没有登录
+2016-11-04 11:26:15,202-list-[views.py:26]-INFO-当前没有登录
+2016-11-04 11:26:25,883-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-04 11:26:25,889-account-[views.py:35]-INFO-普通用户 lushangqi登录成功
+2016-11-04 11:26:25,889-account-[views.py:38]-INFO-redirect to home
+2016-11-04 11:26:26,103-list-[views.py:26]-INFO-当前没有登录
+2016-11-04 11:27:20,343-account-[views.py:21]-INFO-请求方式错误
+2016-11-04 11:28:33,804-list-[views.py:26]-INFO-当前没有登录
+2016-11-04 11:28:50,301-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-04 11:28:50,308-account-[views.py:35]-INFO-普通用户 lushangqi登录成功
+2016-11-04 11:28:50,308-account-[views.py:38]-INFO-redirect to home
+2016-11-04 11:28:50,562-list-[views.py:26]-INFO-当前没有登录
+2016-11-04 12:03:50,801-list-[views.py:26]-INFO-当前没有登录
+2016-11-04 12:03:52,440-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-04 12:03:52,448-account-[views.py:36]-INFO-普通用户 lushangqi登录成功
+2016-11-04 12:03:52,448-account-[views.py:39]-INFO-redirect to home
+2016-11-04 12:03:52,668-list-[views.py:26]-INFO-当前没有登录
+2016-11-04 12:05:39,870-list-[views.py:27]-INFO-当前没有登录
+2016-11-04 12:05:41,520-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-04 12:05:41,531-account-[views.py:36]-INFO-普通用户 lushangqi登录成功
+2016-11-04 12:05:41,531-account-[views.py:39]-INFO-redirect to home
+2016-11-04 12:05:41,760-list-[views.py:27]-INFO-当前没有登录
+2016-11-04 12:08:27,230-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-04 12:08:27,234-account-[views.py:36]-INFO-普通用户 lushangqi登录成功
+2016-11-04 12:08:27,234-account-[views.py:39]-INFO-redirect to home
+2016-11-04 12:08:27,445-list-[views.py:29]-INFO-当前没有登录
+2016-11-04 12:09:36,263-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-04 12:09:36,266-account-[views.py:36]-INFO-普通用户 lushangqi登录成功
+2016-11-04 12:09:36,266-account-[views.py:39]-INFO-redirect to home
+2016-11-04 12:10:47,982-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-04 12:10:47,988-account-[views.py:36]-INFO-普通用户 lushangqi登录成功
+2016-11-04 12:10:47,988-account-[views.py:39]-INFO-redirect to home
+2016-11-04 12:10:48,107-list-[views.py:21]-INFO-不是管理员，
+2016-11-04 12:10:48,119-root-[controller.py:35]-ERROR-获取用户列表错误
+2016-11-04 13:23:01,432-list-[views.py:21]-INFO-不是管理员，
+2016-11-04 13:23:01,433-root-[controller.py:35]-ERROR-获取用户列表错误
+2016-11-04 13:23:47,666-list-[views.py:21]-INFO-不是管理员，
+2016-11-04 13:23:47,667-root-[controller.py:35]-ERROR-获取用户列表错误
+2016-11-04 13:23:48,842-account-[views.py:51]-INFO-lushangqi登出成功
+2016-11-04 13:23:48,968-list-[views.py:21]-INFO-不是管理员，
+2016-11-04 13:23:48,968-root-[controller.py:35]-ERROR-获取用户列表错误
+2016-11-04 13:23:59,335-list-[views.py:21]-INFO-不是管理员，
+2016-11-04 13:23:59,336-root-[controller.py:35]-ERROR-获取用户列表错误
+2016-11-07 09:53:53,146-list-[views.py:29]-INFO-当前没有登录
+2016-11-07 09:54:16,192-account-[controller.py:37]-INFO-register success
+2016-11-07 09:54:41,644-list-[views.py:29]-INFO-当前没有登录
+2016-11-07 09:54:43,503-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-07 09:54:43,512-account-[views.py:36]-INFO-普通用户 lushangqi登录成功
+2016-11-07 09:54:43,548-account-[views.py:39]-INFO-redirect to home
+2016-11-07 09:54:43,749-list-[views.py:21]-INFO-不是管理员，
+2016-11-07 09:54:43,749-root-[controller.py:35]-ERROR-获取用户列表错误
+2016-11-07 09:54:56,341-account-[views.py:51]-INFO-lushangqi登出成功
+2016-11-07 09:54:56,459-list-[views.py:21]-INFO-不是管理员，
+2016-11-07 09:54:56,459-root-[controller.py:35]-ERROR-获取用户列表错误
+2016-11-07 10:00:10,142-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-07 10:00:10,152-account-[views.py:36]-INFO-普通用户 lushangqi登录成功
+2016-11-07 10:00:10,152-account-[views.py:39]-INFO-redirect to home
+2016-11-07 10:00:10,346-list-[views.py:21]-INFO-不是管理员，
+2016-11-07 10:00:10,347-root-[controller.py:35]-ERROR-获取用户列表错误
+2016-11-07 10:00:11,903-account-[views.py:51]-INFO-lushangqi登出成功
+2016-11-07 10:00:12,033-list-[views.py:21]-INFO-不是管理员，
+2016-11-07 10:00:12,034-root-[controller.py:35]-ERROR-获取用户列表错误
+2016-11-07 10:07:35,834-list-[views.py:21]-INFO-不是管理员，
+2016-11-07 10:07:35,834-root-[controller.py:35]-ERROR-获取用户列表错误
+2016-11-07 10:10:33,108-list-[views.py:22]-INFO-不是管理员，
+2016-11-07 10:10:33,108-root-[controller.py:35]-ERROR-获取用户列表错误
+2016-11-07 10:20:34,212-list-[views.py:22]-INFO-不是管理员，
+2016-11-07 10:20:34,213-root-[controller.py:35]-ERROR-获取用户列表错误
+2016-11-07 10:34:41,831-list-[views.py:25]-INFO-不是管理员，
+2016-11-07 10:34:41,832-root-[controller.py:35]-ERROR-获取用户列表错误
+2016-11-07 23:47:12,595-list-[views.py:25]-INFO-不是管理员，
+2016-11-07 23:47:12,626-root-[controller.py:35]-ERROR-获取用户列表错误
+2016-11-07 23:47:22,684-list-[views.py:25]-INFO-不是管理员，
+2016-11-07 23:47:22,685-root-[controller.py:35]-ERROR-获取用户列表错误
+2016-11-07 23:47:22,698-list-[views.py:33]-INFO-当前没有登录
+2016-11-07 23:47:30,599-list-[views.py:25]-INFO-不是管理员，
+2016-11-07 23:47:30,600-root-[controller.py:35]-ERROR-获取用户列表错误
+2016-11-07 23:47:30,605-list-[views.py:33]-INFO-当前没有登录
+2016-11-07 23:48:44,483-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-07 23:48:44,488-account-[views.py:36]-INFO-普通用户 lushangqi登录成功
+2016-11-07 23:48:44,488-account-[views.py:39]-INFO-redirect to home
+2016-11-07 23:48:44,740-list-[views.py:25]-INFO-不是管理员，
+2016-11-07 23:48:44,741-root-[controller.py:35]-ERROR-获取用户列表错误
+2016-11-07 23:48:44,752-list-[views.py:33]-INFO-当前没有登录
+2016-11-07 23:48:49,177-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-07 23:48:49,183-account-[views.py:36]-INFO-普通用户 lushangqi登录成功
+2016-11-07 23:48:49,183-account-[views.py:39]-INFO-redirect to home
+2016-11-07 23:48:49,429-list-[views.py:25]-INFO-不是管理员，
+2016-11-07 23:48:49,430-root-[controller.py:35]-ERROR-获取用户列表错误
+2016-11-07 23:48:49,440-list-[views.py:33]-INFO-当前没有登录
+2016-11-07 23:52:06,646-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-07 23:52:06,651-account-[views.py:36]-INFO-普通用户 lushangqi登录成功
+2016-11-07 23:52:06,652-account-[views.py:39]-INFO-redirect to home
+2016-11-07 23:52:07,142-list-[views.py:25]-INFO-不是管理员，
+2016-11-07 23:52:07,143-root-[controller.py:35]-ERROR-获取用户列表错误
+2016-11-07 23:52:07,151-list-[views.py:33]-INFO-当前没有登录
+2016-11-07 23:58:23,170-list-[views.py:25]-INFO-不是管理员，
+2016-11-07 23:58:23,180-list-[views.py:33]-INFO-当前没有登录
+2016-11-07 23:58:27,365-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-07 23:58:27,370-account-[views.py:36]-INFO-普通用户 lushangqi登录成功
+2016-11-07 23:58:27,371-account-[views.py:39]-INFO-redirect to home
+2016-11-07 23:58:27,603-list-[views.py:25]-INFO-不是管理员，
+2016-11-07 23:58:27,620-list-[views.py:33]-INFO-当前没有登录
+2016-11-07 23:59:34,210-list-[views.py:25]-INFO-不是管理员，
+2016-11-07 23:59:34,220-list-[views.py:30]-ERROR-Reverse for 'view_list' with arguments '('',)' and keyword arguments '{}' not found. 1 pattern(s) tried: ['lists/(\\d+)/$']
+2016-11-07 23:59:34,220-list-[views.py:33]-INFO-当前没有登录
+2016-11-08 00:02:10,456-list-[views.py:25]-INFO-不是管理员，
+2016-11-08 00:02:12,509-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-08 00:02:12,517-account-[views.py:36]-INFO-普通用户 lushangqi登录成功
+2016-11-08 00:02:12,517-account-[views.py:39]-INFO-redirect to home
+2016-11-08 00:02:12,762-list-[views.py:25]-INFO-不是管理员，
+2016-11-08 00:02:15,254-account-[views.py:51]-INFO-lushangqi登出成功
+2016-11-08 00:02:15,392-list-[views.py:25]-INFO-不是管理员，
+2016-11-08 00:06:44,781-list-[views.py:25]-INFO-不是管理员，
+2016-11-08 00:06:44,785-list-[views.py:30]-ERROR-Reverse for 'view_list' with arguments '('',)' and keyword arguments '{}' not found. 1 pattern(s) tried: ['lists/(\\d+)/$']
+2016-11-08 00:06:44,785-list-[views.py:33]-INFO-当前没有登录
+2016-11-08 00:09:11,233-list-[views.py:25]-INFO-不是管理员，
+2016-11-08 00:09:11,237-list-[views.py:30]-ERROR-Reverse for 'view_list' with arguments '('',)' and keyword arguments '{}' not found. 1 pattern(s) tried: ['lists/(\\d+)/$']
+2016-11-08 00:09:11,237-list-[views.py:33]-INFO-当前没有登录
+2016-11-08 00:11:23,166-list-[views.py:25]-INFO-不是管理员，
+2016-11-08 00:11:23,179-list-[views.py:30]-ERROR-Reverse for 'view_list' with arguments '('',)' and keyword arguments '{}' not found. 1 pattern(s) tried: ['lists/(\\d+)/$']
+2016-11-08 00:11:23,180-list-[views.py:33]-INFO-当前没有登录
+2016-11-08 00:11:54,253-list-[views.py:25]-INFO-不是管理员，
+2016-11-08 00:11:54,262-list-[views.py:30]-ERROR-Reverse for 'view_list' with arguments '('',)' and keyword arguments '{}' not found. 1 pattern(s) tried: ['lists/(\\d+)/$']
+2016-11-08 00:11:54,262-list-[views.py:33]-INFO-当前没有登录
+2016-11-08 00:12:00,752-list-[views.py:25]-INFO-不是管理员，
+2016-11-08 00:12:00,762-list-[views.py:30]-ERROR-Reverse for 'view_list' with arguments '('',)' and keyword arguments '{}' not found. 1 pattern(s) tried: ['lists/(\\d+)/$']
+2016-11-08 00:12:00,762-list-[views.py:33]-INFO-当前没有登录
+2016-11-10 14:14:19,638-list-[views.py:25]-INFO-不是管理员，
+2016-11-10 14:14:19,701-list-[views.py:30]-ERROR-Reverse for 'view_list' with arguments '('',)' and keyword arguments '{}' not found. 1 pattern(s) tried: ['lists/(\\d+)/$']
+2016-11-10 14:14:19,702-list-[views.py:33]-INFO-当前没有登录
+2016-11-10 14:17:10,046-list-[views.py:25]-INFO-不是管理员，
+2016-11-10 14:40:36,189-list-[views.py:25]-INFO-不是管理员，
+2016-11-10 14:40:36,197-list-[views.py:30]-ERROR-Invalid block tag: 'end', expected 'endblock'
+2016-11-10 14:40:36,197-list-[views.py:33]-INFO-当前没有登录
+2016-11-10 14:41:25,140-list-[views.py:25]-INFO-不是管理员，
+2016-11-10 14:41:25,148-list-[views.py:30]-ERROR-Unclosed tag 'block'. Looking for one of: endblock 
+2016-11-10 14:41:25,149-list-[views.py:33]-INFO-当前没有登录
+2016-11-10 14:41:36,323-list-[views.py:25]-INFO-不是管理员，
+2016-11-10 14:41:36,325-list-[views.py:30]-ERROR-Unclosed tag 'block'. Looking for one of: endblock 
+2016-11-10 14:41:36,325-list-[views.py:33]-INFO-当前没有登录
+2016-11-10 14:42:08,068-list-[views.py:25]-INFO-不是管理员，
+2016-11-10 14:42:08,076-list-[views.py:30]-ERROR-Unclosed tag 'block'. Looking for one of: endblock 
+2016-11-10 14:42:08,077-list-[views.py:33]-INFO-当前没有登录
+2016-11-10 14:42:52,286-list-[views.py:25]-INFO-不是管理员，
+2016-11-10 14:45:54,323-list-[views.py:25]-INFO-不是管理员，
+2016-11-10 14:46:35,047-list-[views.py:26]-INFO-不是管理员，
+2016-11-10 14:47:14,362-list-[views.py:26]-INFO-不是管理员，
+2016-11-10 14:47:34,181-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-10 14:47:34,187-account-[views.py:36]-INFO-普通用户 lushangqi登录成功
+2016-11-10 14:47:34,188-account-[views.py:39]-INFO-redirect to home
+2016-11-10 14:47:34,405-list-[views.py:26]-INFO-不是管理员，
+2016-11-10 14:47:41,436-account-[views.py:51]-INFO-lushangqi登出成功
+2016-11-10 14:47:41,573-list-[views.py:26]-INFO-不是管理员，
+2016-11-10 14:48:51,843-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-10 14:48:51,845-account-[views.py:36]-INFO-普通用户 lushangqi登录成功
+2016-11-10 14:48:51,846-account-[views.py:39]-INFO-redirect to home
+2016-11-10 14:48:52,219-list-[views.py:26]-INFO-不是管理员，
+2016-11-10 14:48:53,482-account-[views.py:51]-INFO-lushangqi登出成功
+2016-11-10 14:48:53,661-list-[views.py:26]-INFO-不是管理员，
+2016-11-10 14:49:22,811-list-[views.py:26]-INFO-不是管理员，
+2016-11-10 14:51:21,767-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-10 14:51:21,769-account-[views.py:36]-INFO-普通用户 lushangqi登录成功
+2016-11-10 14:51:21,770-account-[views.py:39]-INFO-redirect to home
+2016-11-10 14:51:22,099-list-[views.py:26]-INFO-不是管理员，
+2016-11-10 14:51:23,185-account-[views.py:51]-INFO-lushangqi登出成功
+2016-11-10 14:51:23,342-list-[views.py:26]-INFO-不是管理员，
+2016-11-10 14:51:30,901-list-[views.py:26]-INFO-不是管理员，
+2016-11-10 14:55:07,259-list-[views.py:32]-INFO-当前没有登录
+2016-11-10 15:00:50,598-list-[views.py:32]-INFO-当前没有登录
+2016-11-10 15:03:19,668-list-[views.py:32]-INFO-当前没有登录
+2016-11-10 15:03:27,146-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-10 15:03:27,154-account-[views.py:36]-INFO-普通用户 lushangqi登录成功
+2016-11-10 15:03:27,154-account-[views.py:39]-INFO-redirect to home
+2016-11-10 15:03:27,382-list-[views.py:27]-INFO-不是管理员，
+2016-11-10 15:06:48,566-account-[views.py:51]-INFO-lushangqi登出成功
+2016-11-10 15:06:48,763-list-[views.py:32]-INFO-当前没有登录
+2016-11-10 15:22:35,138-list-[views.py:32]-INFO-当前没有登录
+2016-11-10 15:22:36,092-list-[views.py:32]-INFO-当前没有登录
+2016-11-10 15:22:44,528-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-10 15:22:44,533-account-[views.py:36]-INFO-普通用户 lushangqi登录成功
+2016-11-10 15:22:44,533-account-[views.py:39]-INFO-redirect to home
+2016-11-10 15:22:44,753-list-[views.py:27]-INFO-不是管理员，
+2016-11-10 15:22:46,617-account-[views.py:51]-INFO-lushangqi登出成功
+2016-11-10 15:22:46,746-list-[views.py:32]-INFO-当前没有登录
+2016-11-10 15:23:06,528-account-[controller.py:37]-INFO-register success
+2016-11-10 15:26:49,128-list-[views.py:32]-INFO-当前没有登录
+2016-11-10 15:26:51,551-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-10 15:26:51,558-account-[views.py:36]-INFO-普通用户 lushangqi登录成功
+2016-11-10 15:26:51,559-account-[views.py:39]-INFO-redirect to home
+2016-11-10 15:26:51,981-list-[views.py:27]-INFO-不是管理员，
+2016-11-10 15:27:58,149-account-[controller.py:34]-ERROR-register error
+2016-11-10 15:28:03,345-account-[views.py:51]-INFO-lushangqi登出成功
+2016-11-10 15:28:03,468-list-[views.py:32]-INFO-当前没有登录
+2016-11-10 15:28:10,912-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-10 15:28:10,916-account-[views.py:36]-INFO-普通用户 lushangqi登录成功
+2016-11-10 15:28:10,917-account-[views.py:39]-INFO-redirect to home
+2016-11-10 15:28:11,104-list-[views.py:27]-INFO-不是管理员，
+2016-11-10 15:28:13,368-account-[views.py:51]-INFO-lushangqi登出成功
+2016-11-10 15:28:13,505-list-[views.py:32]-INFO-当前没有登录
+2016-11-10 15:29:03,534-account-[controller.py:34]-ERROR-register error
+2016-11-10 15:31:10,980-list-[views.py:32]-INFO-当前没有登录
+2016-11-10 15:31:46,315-account-[controller.py:34]-ERROR-register error
+2016-11-10 15:31:50,449-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-10 15:31:50,457-account-[views.py:36]-INFO-普通用户 lushangqi登录成功
+2016-11-10 15:31:50,457-account-[views.py:39]-INFO-redirect to home
+2016-11-10 15:31:50,675-list-[views.py:27]-INFO-不是管理员，
+2016-11-10 15:31:52,546-account-[views.py:51]-INFO-lushangqi登出成功
+2016-11-10 15:31:52,686-list-[views.py:32]-INFO-当前没有登录
+2016-11-10 20:49:15,468-list-[views.py:35]-ERROR-'islogin'
+2016-11-10 20:49:15,475-list-[views.py:38]-INFO-当前没有登录
+2016-11-10 20:49:18,528-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-10 20:49:18,584-account-[controller.py:18]-ERROR-login error
+2016-11-10 20:49:18,584-account-[views.py:44]-INFO-密码错误
+2016-11-10 20:49:38,198-account-[controller.py:37]-INFO-register success
+2016-11-10 20:49:40,671-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-10 20:49:40,681-account-[views.py:36]-INFO-普通用户 lushangqi登录成功
+2016-11-10 20:49:40,681-account-[views.py:39]-INFO-redirect to home
+2016-11-10 20:49:40,923-list-[views.py:27]-INFO-不是管理员，
+2016-11-10 21:15:02,985-list-[views.py:35]-ERROR-(1146, "Table 'todolist.django_session' doesn't exist")
+2016-11-10 21:41:05,689-list-[views.py:35]-ERROR-'islogin'
+2016-11-10 21:41:05,689-list-[views.py:38]-INFO-当前没有登录
+2016-11-10 21:41:06,288-list-[views.py:32]-INFO-当前没有登录
+2016-11-10 21:41:21,672-account-[controller.py:37]-INFO-register success
+2016-11-10 21:41:23,999-account-[controller.py:11]-INFO-lushangqi is trying login
+2016-11-10 21:41:24,006-account-[views.py:36]-INFO-普通用户 lushangqi登录成功
+2016-11-10 21:41:24,007-account-[views.py:39]-INFO-redirect to home
+2016-11-10 21:41:24,090-list-[views.py:27]-INFO-不是管理员，
