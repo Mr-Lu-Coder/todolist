@@ -10,10 +10,14 @@
     <link rel="stylesheet" href="/static/default/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/static/default/bootstrap/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="/static/default/css/style.css" />
-    <script type="text/javascript" src="/static/default/js/jquery-1.11.2.min.js"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
     <script type="text/javascript" src="/static/default/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/static/default/js/bin.js"></script>
+    <link href="/static/default/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <script src="/static/default/bootstrap/js/bootstrap.js"></script>
+    {{ form.media }}
     <link rel="shortcut icon" href="/static/default/favicon.ico">
+
+
     <!--[if IE]>
         <script src="/static/default/html5.js"></script>
     <![endif]-->
@@ -59,7 +63,7 @@
                 <a class="btn btn-success" href="/account/register">注册</a>
             </form>
             <form class="navbar-form navbar-right" action="/online/update" method="post">
-            	{{uf.as_p}}
+              {{uf.as_p}}
             </form>
         {% endif %}
 
@@ -69,50 +73,57 @@
       <ul class="ce">
         <li class="xz"><a href="/">首页</a></li>
         <li>
-          <a href="#"  class="more" data-toggle="dropdown" role="button" aria-expanded="true" >个人<span class="caret"></span></a>
+          <a href="#"  class="more" >个人<span class="caret"></span></a>
           <ul class="er">
-             <li><a href="/compute/confirm">未批准</a></li>
-             <li><a href="/compute/history">历史记录</a></li>
-            {% if request.session.role%}
-             <li><a href="/compute/user">添加用户权限</a></li>
-            {% endif %}
+              {% for list in lists %}
+                <li>
+                    <a href="#"  class="more" >{{ list.list_name }}<span class="caret"></span></a>
+                    <ul class="thr">
+                          <li>
+                                <a href="{{ list.get_absolute_url }}">{{ list.list_name }}</a>
+                          </li>
+                     </ul>
+                </li>
+              {% endfor %}
+              <a href="#"  class="less" >增加清单</a>
           </ul>
+
         </li>
           <li>
           <a href="#" class="more">群组<span class="caret"></span></a>
           <ul class="er">
-            <li><a href="/compute/addcompute">添加机器</a></li>
+            <li><a href="/compute/addcompute">数据库组</a></li>
              {% if request.session.role %}
-              <li><a href="/compute/delcompute">机器修改和删除</a></li>
+              <li><a href="/compute/delcompute">组原组</a></li>
              {% else %}
-               <li><a href="/compute/managelink">管理机器权限</a></li>
+               <li><a href="/compute/managelink">吃货的天堂组</a></li>
              {% endif %}        
           </ul>
         </li>
           <li>
           <a href="#" class="more" data-toggle="dropdown" role="button" aria-expanded="false">分享<span class="caret"></span></a>
           <ul class="er">
- 			 <li><a href="../energy/info">统计</a></li>
- 			  <li><a href="../energy/list">统计详细信息</a></li>
- 			  <li><a href="../energy/performance">统计性能信息</a></li>
+       <li><a href="../energy/info">统计</a></li>
+        <li><a href="../energy/list">统计详细信息</a></li>
+        <li><a href="../energy/performance">统计性能信息</a></li>
           </ul>
           </li>
           {% if request.session.role %}
           <li>
-          <a href="#" class="more" data-toggle="dropdown" role="button" aria-expanded="false">管理功能<span class="caret"></span></a>
+          <a href="#" class="more" data-toggle="dropdown" role="button" aria-expanded="false">管理<span class="caret"></span></a>
           <ul class="er">
               <li><a href="/energy/start">开启采集吧</a></li>
               <li><a href="/energy/stop">停止采集吧</a></li>
               <li><a href="/energy/monitor">开启监听吧</a></li>
-              <li><a href="/energy/mstop">停止监听吧</a></li>
+              <li><a href="../energy/mstop">停止监听吧</a></li>
            </ul>
           </li>
        {% endif %}
          <li>
-         <a href="#" class="more" data-toggle="dropdown" role="button" aria-expanded="false">其他<span class="caret"></span></a>
+         <a href="#" class="more" data-toggle="dropdown" role="button" aria-expanded="false">垃圾箱<span class="caret"></span></a>
           <ul class="er">
- 			<li><a href="#">自动升级</a></li>
- 			<li><a href="#">工具</a></li>
+      <li><a href="#"></a></li>
+      <li><a href="#"></a></li>
           </ul>
         </li>
       </ul>
@@ -136,12 +147,12 @@
 <footer id="footer" >
     <hr>
     <p align="middle">2016;  <a href="{{ web_url }}" >{{ web_name }}</a>
-	<br/>
-	Email:lushangqi@foxmail.com
+  <br/>
+  Email:lushangqi@foxmail.com
     </p>
 </footer>
 {% endblock %}
 
 </body>
-<script type="text/javascript" src="../static/default/js/main.js"></script>
+<script type="text/javascript" src="/static/default/js/main.js"></script>
 </html>

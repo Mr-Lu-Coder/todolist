@@ -29,7 +29,11 @@ def list_all():
 '''
 def list_user(userinfo):
     try:
-        lists = List.objects.filter(userinfo['name'])
+        user = User.objects.get(name=userinfo['name'])
+        #print(userinfo['name'])
+        lists = user.list_set.all()
+        #lists = List.objects.filter(list_name='test01')
+        print(lists)
         return lists
     except:
         logger.error('获取用户列表错误')

@@ -16,15 +16,10 @@ $(function(){
 	})
 
     $(".thr > li > a").click(function(){
-	     $(this).addClass("xuan").parents().siblings().find("a").removeClass("xuan");
+	     //$(this).addClass("xuan").parents().siblings().find("a").removeClass("xuan");
 		 $(this).parents().siblings().find(".thr_nr").hide();	
 	     $(this).siblings(".thr_nr").toggle();
 	})
-
-
-
-
-
 
 })
 

@@ -16,11 +16,12 @@ from django.conf.urls import include, url
 from list import views as list_views
 from list import urls as list_urls
 from account import urls as account_urls
+from django.contrib import admin
 urlpatterns = [
     url(r'^$', list_views.home_page, name='home'),
     url(r'^lists/', include(list_urls)),
     url(r'^account/', include(account_urls)),
-    # url(r'^admin/', include(admin.site.urls)),
+    url(r'^admin/', include(admin.site.urls)),
 ]
 
 

@@ -1,6 +1,7 @@
 from django.shortcuts import redirect, render
 from django.shortcuts import render_to_response
 from django.template import RequestContext
+from django.http import Http404
 from list.forms import ExistingListItemForm, ItemForm
 from list.models import List
 from list import controller
@@ -26,7 +27,7 @@ def home_page(req):
                     # print(req.session['role'])
                     logger.info('不是管理员，')
                     userinfo = req.session['user_info']
-                    # lists = controller.list_user(userinfo)
+                    lists = controller.list_user(userinfo)
                     return render_to_response('home.html', locals(), context_instance=RequestContext(req))
             else:
                 logger.info('当前没有登录')
@@ -51,13 +52,41 @@ def new_list(request):
         return render(request, 'home.html', {"form": form})
 
 
-def view_list(request, list_id):
-    list_ = List.objects.get(id=list_id)
-    form = ExistingListItemForm(for_list=list_)
-    if request.method == 'POST':
-        form = ExistingListItemForm(for_list=list_, data=request.POST)
+
+
+
+def add_item(req):
+    pass
+
+def del_item(req):
+    pass
+
+def update_item(req):
+    pass
+
+def add_list(req):
+    pass
+
+def del_lsit(req):
+    pass
+
+def update_list(req):
+    pass
+
+
+
+#账户验证！！！！！！
+def view_list(req, list_id):
+    if not req.session['islogin']:
+        raise Http404("Page does not exist!")
+    # 获取用户当前的数据
+    lists = controller.list_user(req.session['user_info'])
+    curlist = List.objects.get(id=list_id)
+    form = ItemForm()
+    if req.method == 'POST':
+        form = ExistingListItemForm(for_list=curlist, data=req.POST)
         if form.is_valid():
             form.save()
-            return redirect(list_)
-    return render(request, 'list.html', {'list': list_, "form": form})
+            return redirect(curlist)
+    return render_to_response('list.html', locals(), context_instance=RequestContext(req))
 
