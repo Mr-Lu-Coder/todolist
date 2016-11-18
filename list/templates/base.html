@@ -73,22 +73,7 @@
       <ul class="ce">
         <li class="xz"><a href="/">首页</a></li>
         <li>
-          <a href="#"  class="more" >个人<span class="caret"></span></a>
-          <ul class="er">
-              {% for list in lists %}
-                <li>
-                    <a href="#"  class="more" >{{ list.list_name }}<span class="caret"></span></a>
-                    <ul class="thr">
-                          <li>
-                                <a href="{{ list.get_absolute_url }}">{{ list.list_name }}</a>
-                          </li>
-                     </ul>
-                </li>
-              {% endfor %}
-              <a href="#"  class="less" >增加清单</a>
-          </ul>
-
-        </li>
+          <a href="/lists/showlists">个人</a></li>
           <li>
           <a href="#" class="more">群组<span class="caret"></span></a>
           <ul class="er">
@@ -97,7 +82,7 @@
               <li><a href="/compute/delcompute">组原组</a></li>
              {% else %}
                <li><a href="/compute/managelink">吃货的天堂组</a></li>
-             {% endif %}        
+             {% endif %}
           </ul>
         </li>
           <li>

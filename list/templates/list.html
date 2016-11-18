@@ -8,6 +8,7 @@
         <div class="col-md-6 col-md-offset-3">
             {% block table %}
             <table id="id_list_table" class="table">
+                {% if list %}
                 {% for item in curlist.item_set.all %}
                     <tr>
                           <td>{{ forloop.counter }}: <input type="text"  value={{ item.item_name }} /> </td>
@@ -16,6 +17,11 @@
                           <td><input type="button" value="删除" onclick="alert('已删除！')"></td>
                     </tr>
                 {% endfor %}
+                {% else %}
+                    <tr>
+                        当前清单没有代办事项
+                    </tr>
+                {% endif %}
             </table>
             {% endblock %}
         </div>
@@ -27,7 +33,10 @@
         {% block list_form %}
         <form method="POST" action="{% block form_action %}{% endblock %}">
             {% csrf_token %}
-            {{ form.as_table }}
+            <label>添加事项</label>
+            {{ form.text }}
+            <label>选择日期</label>
+            {{ form.item_goal_date}}
             {% if form.errors %}}
             <div class="form-group has-error">
                 <div class="help-block">{{ form.text.errors }}</div>
